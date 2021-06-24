@@ -1,4 +1,4 @@
-## Freenove_ESP32_WROVER_Development_Board
+## Freenove_Basic_Starter_Kit_for_ESP32
 
 A kit with a Freenove® ESP32 Board for learning programming and electronics.
 
