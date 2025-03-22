@@ -95,7 +95,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "10.1_Read_Touch_Sensor" and double click "Read_Touch_Sensor.py".
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "09.1_Read_Touch_Sensor" and double click "Read_Touch_Sensor.py".
 
 Read_Touch_Sensor
 -------------------------------
@@ -174,7 +174,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny, click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "10.2_TouchLamp"and double click "TouchLamp.py". 
+Open "Thonny, click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "09.2_TouchLamp"and double click "TouchLamp.py". 
 
 TouchLamp
 ------------------------------------------
@@ -197,41 +197,41 @@ LED displays as follows:
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :dedent:
 
 Import Pin and TouchPad modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :lines: 1-2
     :dedent:
 
 The closer the return value of the function read() is to 0, the more obviously the touch action is detected. As this is not a fixed value, a threshold value needs to be defined. When the value of the sensor is less than the threshold, it is considered a valid touch action. Similarly, define a threshold value for the released state, and the value between the sensor value and the threshold is regarded as an invalid interference value.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :lines: 4-5
     :dedent:
 
 First, decide whether the touch is detected. If yes, print some messages, reverse the state of LED and set the flag bit isProcessed to 1 to avoid repeatedly executing the program after a touch is detected.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :lines: 20-25
     :dedent:
 
 And then decide whether the touch key is released. If yes, print some messages, and set isProcessed to 0 to avoid repeatedly executing the program after a touch is released and to prepare for the next touch detector.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :lines: 26-30
     :dedent:
 
 Customize a function that reverses the output level of the LED each time it is called.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_TouchLamp/TouchLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.2_TouchLamp/TouchLamp.py
     :language: python
     :lines: 11-17
     :dedent:

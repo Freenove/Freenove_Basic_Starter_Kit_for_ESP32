@@ -101,7 +101,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "13.1_Thermometer" and double click "Thermometer.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "12.1_Thermometer" and double click "Thermometer.py". 
 
 Thermometer
 --------------------------------------
@@ -118,7 +118,7 @@ If you have any concerns, please contact us via: support@freenove.com
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Thermometer/Thermometer.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/Thermometer.py
     :language: python
     :dedent:
 

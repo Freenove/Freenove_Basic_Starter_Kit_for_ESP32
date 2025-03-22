@@ -196,14 +196,14 @@ The serial monitor prints ADC values, DAC values, and the output voltage of the 
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.1_ADC_DAC/Sketch_09.1_ADC_DAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_08.1_ADC_DAC/Sketch_08.1_ADC_DAC.ino
     :linenos: 
     :language: c
     :dedent:
 
 In loop(), the analogRead() function is used to obtain the ADC value, and then the map() function is used to convert the value into an 8-bit precision DAC value. The function dacWrite() is used to output the value. The input and output voltage are calculated according to the previous formula, and the information is finally printed out.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.1_ADC_DAC/Sketch_09.1_ADC_DAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_08.1_ADC_DAC/Sketch_08.1_ADC_DAC.ino
     :linenos: 
     :language: c
     :lines: 14-18

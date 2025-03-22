@@ -138,7 +138,7 @@ Download the code to ESP32-WROVER, press the push button switch and the buzzer w
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.1_Doorbell/Sketch_07.1_Doorbell.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.1_Doorbell/Sketch_06.1_Doorbell.ino
     :linenos: 
     :language: c
     :dedent:
@@ -170,14 +170,14 @@ Download the code to ESP32-WROVER, press the button, then alarm sounds. And when
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :dedent:
 
 The code is the same as the active buzzer logically, but the way to control the buzzer is different. Passive buzzer requires PWM of certain frequency to control, so you need to create a PWM channel through ledcAttachChannal(). Here ledcWriteTone() is designed to generating square wave with variable frequency and duty cycle fixed to 50%, which is a better choice for controlling the buzzer.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :lines: 13-14
@@ -185,7 +185,7 @@ The code is the same as the active buzzer logically, but the way to control the 
 
 In the while cycle of main function, when the button is pressed, subfunction alert() will be called and the alertor will issue a warning sound. The frequency curve of the alarm is based on the sine curve. We need to calculate the sine value from 0 to 360 degree and multiply a certain value (here is 500) and plus the resonant frequency of buzzer. 
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :lines: 26-35
@@ -193,7 +193,7 @@ In the while cycle of main function, when the button is pressed, subfunction ale
 
 If you want to close the buzzer, just set PWM frequency of the buzzer pin to 0.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :lines: 22-22
@@ -228,14 +228,14 @@ Download the code to ESP32-WROVER, press the button, then the alarm sounds. And 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.3_Aleror/Sketch_07.3_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.3_Aleror/Sketch_06.3_Aleror.ino
     :linenos: 
     :language: c
     :dedent:
 
 In the code, first define a timer variable, timer, and then create the timer in setup(), setting the function onTimer() that the timer will execute.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.3_Aleror/Sketch_07.3_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.3_Aleror/Sketch_06.3_Aleror.ino
     :linenos: 
     :language: c
     :lines: 9-9, 20-23
@@ -243,7 +243,7 @@ In the code, first define a timer variable, timer, and then create the timer in 
 
 In the loop(), use the timerAlarmWrite() to set the timer time and use timerAlarmEnable() to start the timer. Using the flag bit isAlerting, the code to set and start the timer is executed only when the key is pressed.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.3_Aleror/Sketch_07.3_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.3_Aleror/Sketch_06.3_Aleror.ino
     :linenos: 
     :language: c
     :lines: 27-33
@@ -251,7 +251,7 @@ In the loop(), use the timerAlarmWrite() to set the timer time and use timerAlar
 
 After the key is released, stop the timer and make the buzzer's GPIO output low.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.3_Aleror/Sketch_07.3_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.3_Aleror/Sketch_06.3_Aleror.ino
     :linenos: 
     :language: c
     :lines: 36-40

@@ -4,9 +4,9 @@ Chapter Bluetooth
 
 This chapter mainly introduces how to make simple data transmission through Bluetooth of ESP32-WROVER and mobile phones.
 
-Project 27.1 is classic Bluetooth and Project 27.2 is low power Bluetooth.If you are an iPhone user, please start with Project 27.2.
+Project 13.1 is classic Bluetooth and Project 13.2 is low power Bluetooth.If you are an iPhone user, please start with Project 13.2.
 
-Project 27.1 Bluetooth Passthrough
+Project 13.1 Bluetooth Passthrough
 ********************************************
 
 Component List
@@ -57,7 +57,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Sketch
 ===================================
 
-Sketch_27.1_SerialToSerialBT
+Sketch_13.1_SerialToSerialBT
 -------------------------------------
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_03.png
@@ -197,7 +197,7 @@ If you can't install Serial Bluetooth on your phone, try LightBlue.If you do not
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_17.png
     :align: center
 
-Step1. Upload the code of Project27.2 to ESP32.
+Step1. Upload the code of Project13.2 to ESP32.
 
 Step2. Click on serial monitor.
 
@@ -248,14 +248,14 @@ And now data can be transferred between your mobile phone and computer via ESP32
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :dedent:
 
 Define the specified UUID number for BLE vendor.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 18-20
@@ -263,7 +263,7 @@ Define the specified UUID number for BLE vendor.
 
 Write a Callback function for BLE server to manage connection of BLE.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 22-30
@@ -271,7 +271,7 @@ Write a Callback function for BLE server to manage connection of BLE.
 
 Write Callback function with BLE features. When it is called, as the mobile terminal send data to ESP32, it will store them into reload.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 32-42
@@ -279,7 +279,7 @@ Write Callback function with BLE features. When it is called, as the mobile term
 
 Initialize the BLE function and name it.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 61-61
@@ -287,7 +287,7 @@ Initialize the BLE function and name it.
 
 When the mobile phone send data to ESP32 via BLE Bluetooth, it will print them out with serial port; When the serial port of ESP32 receive data, it will send them to mobile via BLE Bluetooth.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 65-78
@@ -307,179 +307,10 @@ The design for creating the BLE server is:
 
 6. Start advertising.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.2_BLE_USART/Sketch_27.2_BLE_USART.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.2_BLE_USART/Sketch_13.2_BLE_USART.ino
     :linenos: 
     :language: c
     :lines: 44-57
     :dedent:
 
-Project Bluetooth Control LED
-*********************************************
-
-In this section, we will control the LED with Bluetooth.
-
-Component List
-======================================
-
-+------------------------------------+-------------------------+
-| ESP32-WROVER x1                    | GPIO Extension Board x1 |
-|                                    |                         |
-| |Chapter01_00|                     | |Chapter01_01|          |
-+------------------------------------+-------------------------+
-| Micro USB Wire x1                                            |
-|                                                              |
-| |Chapter08_00|                                               |
-+--------------------------------------------------------------+
-| Breadboard x1                                                |
-|                                                              |
-| |Chapter01_02|                                               |
-+-----------------+------------------+-------------------------+
-| LED x1          | Resistor 220Ω x1 | Jumper M/M x2           |
-|                 |                  |                         |
-| |Chapter01_03|  | |Chapter01_04|   | |Chapter01_05|          |
-+-----------------+------------------+-------------------------+
-  
-.. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png    
-.. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png    
-.. |Chapter01_02| image:: ../_static/imgs/1_LED/Chapter01_02.png    
-.. |Chapter01_03| image:: ../_static/imgs/1_LED/Chapter01_03.png    
-.. |Chapter01_04| image:: ../_static/imgs/1_LED/Chapter01_04.png    
-.. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png    
-.. |Chapter08_00| image:: ../_static/imgs/8_Serial_Communication/Chapter08_00.png
-
-Circuit
-==========================================
-
-Connect Freenove ESP32 to the computer using a USB cable.
-
-.. list-table:: 
-   :width: 80%
-   :header-rows: 1 
-   :align: center
-   
-   * -  Schematic diagram
-   * -  |Chapter27_27|
-   * -  Hardware connection. 
-       
-        If you need any support, please feel free to contact us via: support@freenove.com
-
-        |Chapter27_28|
-
-.. |Chapter27_27| image:: ../_static/imgs/27_Bluetooth/Chapter27_27.png
-.. |Chapter27_28| image:: ../_static/imgs/27_Bluetooth/Chapter27_28.png
-
-Sketch
-======================================
-
-Sketch_Bluetooth_Control_LED
---------------------------------------------
-
-.. image:: ../_static/imgs/27_Bluetooth/Chapter27_29.png
-    :align: center
-
-Compile and upload code to ESP32. The operation of the APP is the same as 27.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
-
-Data sent from mobile APP:
-
-.. image:: ../_static/imgs/27_Bluetooth/Chapter27_30.png
-    :align: center
-
-Display on the serial port of the computer:
-
-.. image:: ../_static/imgs/27_Bluetooth/Chapter27_31.png
-    :align: center
-
-The phenomenon of LED
-
-.. image:: ../_static/imgs/27_Bluetooth/Chapter27_32.png
-    :align: center
-
-Attention: If the sending content isn't "led-on' or "led-off", then the state of LED will not change. If the LED is on, when receiving irrelevant content, it keeps on; Correspondingly, if the LED is off, when receiving irrelevant content, it keeps off.
-
-The following is the program code:
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :dedent:
-
-Use character string to handle function header file.
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 10-10
-    :dedent:
-
-Define a buffer to receive data from Bluetooth, and use "count" to record the bytes of data received.
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 13-14
-    :dedent:
-
-Initialize the classic Bluetooth and name it as "ESP32test"
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 17-17
-    :dedent:
-
-When receive data, read the Bluetooth data and store it into buffer array.
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 23-27
-    :dedent:
-
-Compare the content in buffer array with "led_on" and "led_off" to see whether they are the same. If yes, execute the corresponding operation. 
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 30-35
-    :dedent:
-
-After comparing the content of array, to ensure successful transmission next time, please empty the array and set the count to zero.
-
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
-    :linenos: 
-    :language: c
-    :lines: 36-37
-    :dedent:
-
-Reference
--------------------------------
-
-strncmp() functions are often used for string comparisons, which are accurate and stable.
-
-.. py:function:: int strncmp(const char *str1, const char *str2, size_t n)	
-    
-    str1: the first string to be compared 
-    
-    str2: the second string to be compared 
-    
-    n: the biggest string to be compared
-    
-    Return value: if stir1>str2, then return value>0.
-    
-        If return value is 0, then the contents of str1 and str2 are the same.
-    
-        If str1< str2, then return value<0.
-
-|
-
-Function memset is mainly used to clean and initialize the memory of array
-
-.. py:function:: void *memset(void *s, int c, unsigned long n)	
-    
-    Function memset() is to set the content of a certain internal storage as specified value.
-    
-    *s: the initial address of the content to clear out. 
-    
-    c:to be replaced as specified value 
-    
-    n: the number of byte to be replaced
+.. include:: 27_2_Bluetooth.rst

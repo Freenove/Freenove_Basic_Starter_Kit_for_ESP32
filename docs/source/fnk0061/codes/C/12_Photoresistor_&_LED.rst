@@ -94,7 +94,7 @@ Download the code to ESP32-WROVER, if you cover the photoresistor or increase th
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_12.1_NightLamp/Sketch_12.1_NightLamp.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_11.1_NightLamp/Sketch_11.1_NightLamp.ino
     :linenos: 
     :language: c
     :dedent:

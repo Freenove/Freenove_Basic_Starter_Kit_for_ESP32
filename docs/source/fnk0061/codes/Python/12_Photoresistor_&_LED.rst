@@ -86,7 +86,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Codes of this project is logically the same as the project Soft Light.
 
-12.1_Nightlamp
+11.1_Nightlamp
 -----------------------------
 
 .. image:: ../_static/imgs/12_Photoresistor_&_LED/Chapter12_05.png
@@ -96,6 +96,6 @@ Click "Run current script". Cover the photoresistor with your hands or illuminat
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_NightLamp/NightLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_NightLamp/NightLamp.py
     :language: python
     :dedent:

@@ -91,7 +91,7 @@ For more information, click :ref:`here <GPIO>`.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_08.1_SerialPrinter/Sketch_08.1_SerialPrinter.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.1_SerialPrinter/Sketch_07.1_SerialPrinter.ino
     :linenos: 
     :language: c
     :dedent:

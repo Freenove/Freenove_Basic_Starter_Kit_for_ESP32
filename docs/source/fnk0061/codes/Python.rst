@@ -45,12 +45,11 @@ Python language
    Python/29_TCP_IP.rst
    Python/30_Camera_Web_Server.rst
 
-   .. toctree::
+.. toctree::
    :maxdepth: 1
    :caption: What's next?
    :glob:
-
-   Python/What_s_next(47).rst
+   
    Python/What_s_next(others).rst
 
 .. toctree::

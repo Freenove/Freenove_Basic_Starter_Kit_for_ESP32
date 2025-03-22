@@ -177,14 +177,14 @@ With a touch pad, the state of the LED changes with each touch, and the detectio
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_10.2_TouchLamp/Sketch_10.2_TouchLamp.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.2_TouchLamp/Sketch_09.2_TouchLamp.ino
     :linenos: 
     :language: c
     :dedent:
 
 The closer the return value of the function touchRead() is to 0, the more obviously the touch is detected. This is not a fixed value, so you need to define a threshold that is considered valid (when the value of the sensor is less than this threshold). Similarly, a threshold value is to be defined in the release state, and a value in between is considered an invalid disturbance value.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_10.2_TouchLamp/Sketch_10.2_TouchLamp.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.2_TouchLamp/Sketch_09.2_TouchLamp.ino
     :linenos: 
     :language: c
     :lines: 8-9
@@ -192,7 +192,7 @@ The closer the return value of the function touchRead() is to 0, the more obviou
 
 In loop(), first determine whether the touch was detected. If yes, print some messages, flip the state of the LED, and set the flag bit isProcessed to true to avoid repeating the program after the touch was successful.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_10.2_TouchLamp/Sketch_10.2_TouchLamp.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.2_TouchLamp/Sketch_09.2_TouchLamp.ino
     :linenos: 
     :language: c
     :lines: 17-23
@@ -200,7 +200,7 @@ In loop(), first determine whether the touch was detected. If yes, print some me
 
 It then determines if the touch key is released, and if so, prints some messages and sets the isProcessed to false to avoid repeating the process after the touch release and to prepare for the next touch probe.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_10.2_TouchLamp/Sketch_10.2_TouchLamp.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.2_TouchLamp/Sketch_09.2_TouchLamp.ino
     :linenos: 
     :language: c
     :lines: 25-30

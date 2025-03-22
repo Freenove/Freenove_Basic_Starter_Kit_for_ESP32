@@ -183,7 +183,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "09.1_AnalogRead and then click "AnalogRead.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "08.1_AnalogRead and then click "AnalogRead.py". 
 
 AnalogRead 
 -------------------------------------------
@@ -205,27 +205,27 @@ LEDs display as below:
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :language: python
     :dedent:
 
 Import Pin, ADC and DAC modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :language: python
     :lines: 1-2
     :dedent:
 
 Turn on and configure the ADC with the range of 0-3.3V and the data width of 12-bit data width, and turn on the DAC pin.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :language: python
     :lines: 4-7
     :dedent:
 
 Read ADC value once every 100 millisecods, convert ADC value to DAC value and output it, control the brightness of LED and print these data to "Shell".
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :language: python
     :lines: 10-16
     :dedent:
