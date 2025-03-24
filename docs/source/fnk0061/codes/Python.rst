@@ -50,7 +50,7 @@ Python language
    :caption: What's next?
    :glob:
    
-   Python/What_s_next(others).rst
+   What_s_next(others).rst
 
 .. toctree::
    :maxdepth: 1
