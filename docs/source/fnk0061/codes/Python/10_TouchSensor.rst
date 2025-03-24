@@ -93,7 +93,7 @@ Circuit
 Code
 ============================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "09.1_Read_Touch_Sensor" and double click "Read_Touch_Sensor.py".
 
@@ -172,7 +172,7 @@ Circuit
 Code
 =========================================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny, click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "09.2_TouchLamp"and double click "TouchLamp.py". 
 

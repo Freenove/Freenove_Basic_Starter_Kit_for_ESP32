@@ -68,7 +68,7 @@ Install ControlP5.
 .. image:: ../_static/imgs/33_TCP_IP/Chapter33_04.png
     :align: center
 
-Open the "Freenove_Ultimate_Starter_Kit_for_ESP32\Sketches\Sketches\Sketch_33.1_WiFiClient\sketchWiFi\sketchWiFi.pde", and click "Run".
+Open the "Freenove_Basic_Starter_Kit_for_ESP32\\Sketches\\Sketches\\Sketch_33.1_WiFiClient\\sketchWiFi\\sketchWiFi.pde", and click "Run".
 
 .. image:: ../_static/imgs/33_TCP_IP/Chapter33_05.png
     :align: center
@@ -122,7 +122,7 @@ The newly pop up window will use the computer's IP address by default and open a
 .. image:: ../_static/imgs/33_TCP_IP/Chapter33_20.png
     :align: center
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "15.1_TCP_as_Client" and double click "TCP_as_Client.py". 
 
@@ -280,12 +280,12 @@ Connect Freenove ESP32 to the computer using a USB cable.
 Code
 ===============================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "15.2_TCP_as_Server" and double click "TCP_as_Server.py". 
 
 Before clicking "Run current script", please modify the name and password of your router shown in the box below.
--
+
 TCP_as_Server
 ---------------------------------
 
@@ -299,7 +299,7 @@ After making sure that the router's name and password are correct, click "Run cu
 
 Processing:
 
-Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32/Codes/MicroPython_Codes/15.2_TCP_as_Server/sketchWiFi/sketchWiFi.pde** ".
+Open the " **Freenove_Basic_Starter_Kit_for_ESP32/Codes/MicroPython_Codes/15.2_TCP_as_Server/sketchWiFi/sketchWiFi.pde** ".
 
 Based on the message printed in "Shell", enter the correct IP address and port when processing, and click to establish a connection with ESP32 to communicate.
 

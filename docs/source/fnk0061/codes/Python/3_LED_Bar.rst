@@ -79,7 +79,7 @@ FlowingLight
 >>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ------------------------------
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "03.1_FlowingLight" and double click "FlowingLight.py".
 

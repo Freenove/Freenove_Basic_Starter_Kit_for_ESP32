@@ -54,7 +54,7 @@ Follow the instruction of official website to install Thonny or click the links 
 |                  | sudo dnf install thonny                                                    |
 +------------------+----------------------------------------------------------------------------+
 
-You can also open "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Software", we have prepared it in advance.
+You can also open "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Software", we have prepared it in advance.
 
 .. image:: ../_static/imgs/0_LED/Chapter00_09.png
     :align: center
@@ -154,12 +154,12 @@ Installing CH340
 .. image:: ../_static/imgs/0_LED/Chapter00_24.png
     :align: center
 
-You can also open "Freenove_Ultimate_Starter_Kit_for_ESP32/CH340", we have prepared the installation package.
+You can also open "Freenove_Basic_Starter_Kit_for_ESP32/CH340", we have prepared the installation package.
 
 .. image:: ../_static/imgs/0_LED/Chapter00_25.png
     :align: center
 
-2.	Open the folder "Freenove_Ultimate_Starter_Kit_for_ESP32/CH340/Windows/ch341ser"
+2.	Open the folder "Freenove_Basic_Starter_Kit_for_ESP32/CH340/Windows/ch341ser"
 
 .. image:: ../_static/imgs/0_LED/Chapter00_26.png
     :align: center
@@ -194,9 +194,9 @@ First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downl
 .. image:: ../_static/imgs/0_LED/Chapter00_31.png
     :align: center
 
-If you would not like to download the installation package, you can open "Freenove_Ultimate_Starter_Kit_for_ESP32/CH340", we have prepared the installation package.
+If you would not like to download the installation package, you can open "Freenove_Basic_Starter_Kit_for_ESP32/CH340", we have prepared the installation package.
 
-Second, open the folder "Freenove_Ultimate_Starter_Kit_for_ESP32/CH340/MAC/"
+Second, open the folder "Freenove_Basic_Starter_Kit_for_ESP32/CH340/MAC/"
 
 .. image:: ../_static/imgs/0_LED/Chapter00_32.png
     :align: center
@@ -245,7 +245,7 @@ Webpage listing firmware of microPython for ESP32: https://micropython.org/downl
 
 Firmware used in this tutorial is esp32spiram-20220117-v1.18.bin
 
-This file is also provided in our data folder "Freenove_Ultimate_Starter_Kit_for_ESP32
+This file is also provided in our data folder "Freenove_Basic_Starter_Kit_for_ESP32
 
 /Python/Python_Firmware".
 
@@ -321,7 +321,7 @@ ESP32 needs to be connected to a computer when it is run online. Users can use T
 .. image:: ../_static/imgs/0_LED/Chapter00_48.png
     :align: center
 
-In the new dialog box, select " **HelloWorld.py** " in " **Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes/00.0_HelloWorld** " folder. 
+In the new dialog box, select " **HelloWorld.py** " in " **Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes/00.0_HelloWorld** " folder. 
 
 .. image:: ../_static/imgs/0_LED/Chapter00_49.png
     :align: center
@@ -342,7 +342,7 @@ Running Offline(Importance)
 
 After ESP32 is reset, it runs the file boot.py in root directory first and then runs file main.py, and finally, it enters "Shell". Therefore, to make ESP32 execute user's programs after resetting, we need to add a guiding program in boot.py to execute user's code.
 
-1.	Move the program folder " **Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of " **D:/Micropython_Codes** ". Open "Thonny"。
+1.	Move the program folder " **Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of " **D:/Micropython_Codes** ". Open "Thonny"。
 
 .. image:: ../_static/imgs/0_LED/Chapter00_51.png
     :align: center

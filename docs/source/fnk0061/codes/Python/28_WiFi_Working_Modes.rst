@@ -43,7 +43,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Code
 ================================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.1_Station_mode" and double click "Station_mode.py". 
 
@@ -180,7 +180,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Code
 ===================================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.2_AP_mode". and double click "AP_mode.py". 
 
@@ -327,7 +327,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Code
 ============================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.3_AP+STA_mode"and double click "AP+STA_mode.py". 
 

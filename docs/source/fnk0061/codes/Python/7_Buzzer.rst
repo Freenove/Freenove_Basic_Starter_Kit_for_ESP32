@@ -125,7 +125,7 @@ Code
 
 In this project, a buzzer will be controlled by a push button switch. When the button switch is pressed, the buzzer sounds and when the button is released, the buzzer stops. It is analogous to our earlier project that controlled an LED ON and OFF.
 
-Move the program folder " **Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder " **Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "06.1_Doorbell" and double click "Doorbell.py". 
 

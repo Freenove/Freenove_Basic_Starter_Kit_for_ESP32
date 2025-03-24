@@ -32,7 +32,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Code
 ==================================
 
-Move the program folder " **Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of " **D:/Micropython_Codes** ".
+Move the program folder " **Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of " **D:/Micropython_Codes** ".
 
 Since Micropython does not provide firmware including camera module, in this chapter, we will use the camera based on the firmware in lemariva's Github project, micropython-camera-driver.
 

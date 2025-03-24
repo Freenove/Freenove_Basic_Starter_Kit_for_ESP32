@@ -82,7 +82,7 @@ The circuit of this project is similar to project Soft Light. The only differenc
 Code
 =============================
 
-Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
+Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
 Codes of this project is logically the same as the project Soft Light.
 
