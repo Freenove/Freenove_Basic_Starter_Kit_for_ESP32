@@ -1,12 +1,12 @@
 ##############################################################################
-Chapter Bluetooth
+Chapter 13 Bluetooth
 ##############################################################################
 
 This chapter mainly introduces how to make simple data transmission through Bluetooth of ESP32-WROVER and mobile phones.
 
 Project 13.1 is classic Bluetooth and Project 13.2 is low power Bluetooth.If you are an iPhone user, please start with Project 13.2.
 
-Project Bluetooth Low Energy Data Passthrough
+Project 13.1 Bluetooth Low Energy Data Passthrough
 ****************************************************
 
 Component List
@@ -46,7 +46,7 @@ Move the program folder **"Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Co
 
 Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->** "13.1_BLE". Select "ble_advertising.py", right click your mouse to select "Upload to /", wait for "ble_advertising.py" to be uploaded to ESP32-WROVER and then double click "BLE.py". 
 
-BLE
+13.1_BLE
 --------------------------------------
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_33.png

@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Thermistor
+Chapter 12 Thermistor
 ##############################################################################
 
 In this chapter, we will learn about thermistors which are another kind of resistor
 
-Project Thermometer
+Project 12.1 Thermometer
 ******************************************
 
 A thermistor is a type of resistor whose resistance value is dependent on temperature and changes in temperature. Therefore, we can take advantage of this characteristic to make a thermometer.
@@ -89,6 +89,7 @@ The circuit of this project is similar to the one in the last chapter. The only 
 .. list-table:: 
    :width: 80%
    :align: center
+   :class: table-line
    
    * -  **Schematic diagram**
    * -  |Chapter13_05|
@@ -107,7 +108,7 @@ Move the program folder **"Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Co
 
 Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->** "12.1_Thermometer" and double click "Thermometer.py". 
 
-Thermometer
+12.1_Thermometer
 --------------------------------------
 
 .. image:: ../_static/imgs/13_Thermistor/Chapter13_09.png
@@ -123,7 +124,9 @@ If you have any concerns, please contact us via: support@freenove.com
 The following is the code:
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/Thermometer.py
+    :linenos:
     :language: python
+    :lines: 1-18
     :dedent:
 
 In the code, the ADC value of ADC module A0 port is read, and then it calculates the voltage and the resistance of Thermistor according to Ohms Law. Finally, it calculates the temperature sensed by the Thermistor, according to the formula. 

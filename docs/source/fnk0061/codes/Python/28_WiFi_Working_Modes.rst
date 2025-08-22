@@ -1,12 +1,12 @@
 ##############################################################################
-Chapter WiFi Working Modes
+Chapter 14 WiFi Working Modes
 ##############################################################################
 
 In this chapter, we'll focus on the WiFi infrastructure for ESP32-WROVER. 
 
 ESP32-WROVER has 3 different WiFi operating modes: station mode, AP mode and AP+station mode. All WiFi programming projects must be configured with WiFi operating mode before using WiFi, otherwise WiFi cannot be used.
 
-Project Station mode
+Project 14.1 Station mode
 *******************************************
 
 Component List
@@ -70,7 +70,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Station_mode/Station_mode.py
     :linenos:
     :language: python
-    :lines: 1-25
+    :lines: 1-22
     :dedent:
 
 Import network module.
@@ -162,7 +162,7 @@ Reference
     
     **disconnect():** Disconnect from the currently connected wireless network.
 
-Project AP mode
+Project 14.2 AP mode
 *********************************************
 
 Component List & Circuit
@@ -196,7 +196,7 @@ Move the program folder "Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Code
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.2_AP_mode". and double click "AP_mode.py". 
 
-AP_mode
+14.2_AP_mode
 ----------------------------------
 
 .. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter32_14.png
@@ -219,6 +219,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.2_AP_mode/AP_mode.py
     :linenos:
     :language: python
+    :lines: 1-25
     :dedent:
 
 Import network module.
@@ -312,7 +313,7 @@ Reference
     
     **status():** Return the current status of the wireless connection
 
-Project AP+Station mode
+Project 14.3 AP+Station mode
 ******************************************
 
 Component List
@@ -328,9 +329,6 @@ Component List
     |                                    |                         |
     | |Chapter01_00|                     | |Chapter08_00|          |
     +------------------------------------+-------------------------+
-  
-.. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
-.. |Chapter08_00| image:: ../_static/imgs/8_Serial_Communication/Chapter08_00.png
 
 Component knowledge
 =============================================
@@ -355,13 +353,13 @@ Move the program folder **"Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Co
 
 Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->** "14.3_AP+STA_mode"and double click "AP+STA_mode.py". 
 
-AP+STA_mode
+14.3_AP+STA_mode
 --------------------------
 
 .. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter32_17.png
     :align: center
 
-It is analogous to project 14.1 and project 14.2. Before running the Code, you need to modify ssidRouter, passwordRouter, ssidAP and passwordAP shown in the box of the illustration above.
+It is analogous to project 28.1 and project 14.2. Before running the Code, you need to modify ssidRouter, passwordRouter, ssidAP and passwordAP shown in the box of the illustration above.
 
 After making sure that the code is modified correctly, click "Run current script" and the "Shell" will display as follows:
 

@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Touch Sensor
+Chapter 9 Touch Sensor
 ##############################################################################
 
 ESP32 offers up to 10 capacitive touch GPIO, and as you can see from the previous section, mechanical switches are prone to jitter that must be eliminated when used, which is not the case with ESP32's built-in touch sensor. In addition, on the service life, the touch switch also has advantages that mechanical switch is completely incomparable.
 
-Project Read Touch Sensor
+Project 9.1 Read Touch Sensor
 *********************************************
 
 This project reads the value of the touch sensor and prints it out.
@@ -102,7 +102,7 @@ Circuit
 Sketch
 ===========================================
 
-Sketch_TouchRead
+Sketch_09.1_TouchRead
 -------------------------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_03.png
@@ -125,7 +125,7 @@ Reference
     
     Read touch sensor value. (values close to 0 mean touch detected)
 
-Project Touch Lamp
+Project 9.2 Touch Lamp
 *****************************************
 
 In this project, we will use ESP32's touch sensor to create a touch switch lamp.
@@ -176,7 +176,7 @@ Circuit
 Sketch
 ==========================================
 
-Sketch_TouchLamp
+Sketch_09.2_TouchLamp
 --------------------------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_08.png

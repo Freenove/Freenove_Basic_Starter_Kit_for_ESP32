@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Serial Communication
+Chapter 7 Serial Communication
 ##############################################################################
 
 Serial Communication is a means of communication between different devices/devices. This section describes ESP32's Serial Communication.
 
-Project Serial Print
+Project 7.1 Serial Print
 ***************************************
 
 This project uses ESP32's serial communicator to send data to the computer and print it on the serial monitor.
@@ -79,7 +79,7 @@ Move the program folder **"Freenove_Basic_Starter_Kit_for_ESP32/Python/Python_Co
 
 Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->** "07.1_Serial_Print" and double "Serial_Print.py". 
 
-Serial_Print
+07.1_Serial_Print
 ------------------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_11.png
@@ -155,7 +155,7 @@ Reference
     
     **UART.any():** Determine whether there is data in serial ports. If yes, return the number of bytes; Otherwise, return 0.
 
-Project 8.2 Serial Read and Write
+Project 7.2 Serial Read and Write
 ******************************************
 
 From last section, we use Serial port on Freenove ESP32 to send data to a computer, now we will use that to receive data from computer.
@@ -165,9 +165,9 @@ Component and Circuit are the same as in the previous project.
 Code
 ==========================================
 
-Open "Thonny", click "This computer"  **->**  "D:"  **->**  "Micropython_Codes"  **->**  "08.2_Serial_Read_and_Write" and double click "Serial_Read_and_Write.py". 
+Open "Thonny", click "This computer"  **->**  "D:"  **->**  "Micropython_Codes"  **->**  "07.2_Serial_Read_and_Write" and double click "Serial_Read_and_Write.py". 
 
-Serial_Read_and_Write
+07.2_Serial_Read_and_Write
 ----------------------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_14.png
