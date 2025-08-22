@@ -70,7 +70,7 @@ Sketch_13.3_Bluetooth_Control_LED
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_29.png
     :align: center
 
-Compile and upload code to ESP32. The operation of the APP is the same as 27.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
+Compile and upload code to ESP32. The operation of the APP is the same as 13.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
 
 Data sent from mobile APP:
 

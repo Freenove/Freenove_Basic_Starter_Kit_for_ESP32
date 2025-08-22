@@ -359,7 +359,7 @@ Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->
 .. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter32_17.png
     :align: center
 
-It is analogous to project 28.1 and project 14.2. Before running the Code, you need to modify ssidRouter, passwordRouter, ssidAP and passwordAP shown in the box of the illustration above.
+It is analogous to project 14.1 and project 14.2. Before running the Code, you need to modify ssidRouter, passwordRouter, ssidAP and passwordAP shown in the box of the illustration above.
 
 After making sure that the code is modified correctly, click "Run current script" and the "Shell" will display as follows:
 
